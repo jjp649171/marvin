@@ -1,8 +1,6 @@
 function vogalOuConsoante(e){
     
-
-
-var e1 = e;
+    var e = e.toLowerCase();
 
     if (e=='a' || e=='e' || e=='i' || e=='o' || e=='u'){
 
@@ -15,3 +13,4 @@ var e1 = e;
 
 
 }
+
