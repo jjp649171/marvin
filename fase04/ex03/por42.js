@@ -1,14 +1,20 @@
-function por42(num1,num2){
-    var resultado = null;
-    while(num1 <= num2){
-        if(num1 % 42 === 0){
-            return Math.max(num1 + 42)
+  
+function por42(num1, num2){
+    var result = null;
+    var contador = 0;
+    while ( num1 <= num2){
+        if ( num1 % 42 === 0){
+            contador = contador +1
+        }
+        
+        
+        if (contador === 2){
+            return(num1);
         }
         num1++
-    }
-    if(!resultado) {
-        return false
-        console.log("Não encontrado")
-    }
+        
+        
+    } if (!result)
+    console.log("Não encontrado")
+    return false
 }
-
