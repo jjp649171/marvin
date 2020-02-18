@@ -1,4 +1,5 @@
 function classificar(array) {
-return array.sort()
-}
+var un = array
+return un.sort()
 
+}
