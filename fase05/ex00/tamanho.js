@@ -1,6 +1,7 @@
 function tamanho(array){
     var letras = array
 
-console.log(frutas.length);
-    
+return letras.length;
+
 }
+
